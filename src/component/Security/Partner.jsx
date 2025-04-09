@@ -5,6 +5,7 @@ import Char from '../../assets/chargealee.png'
 import marketo from '../../assets/marketo.png'
 import Okta from '../../assets/okta.png'
 import Sales from '../../assets/sales.png'
+import { motion } from 'framer-motion'
 
 const Partner = () => {
   const Img = [Stripe, amazon, Char, marketo, Okta, Sales]

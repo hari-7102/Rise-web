@@ -1,17 +1,28 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Protector = () => {
   return (
     <div className="flex justify-evenly py-12  flex-wrap lg:flex-nowrap">
-      <div className="lg:w-1/2 w-full flex justify-center px-6">
+      <motion.div 
+      initial ={{opacity : 0 , x : -30 }}
+      whileInView={{opacity : 1 , x : 0}}
+      transition={{duration : 0.6 }}
+      viewport={{once : true , amount : 0.4 }}
+      className="lg:w-1/2 w-full flex justify-center px-6">
         <img
           src="https://riseusercontent.com/assets/rise/assets/marketing-images/security/security-safe.svg"
           alt=""
           className="w-100% h-100%"
         />
-      </div>
+      </motion.div>
 
-      <div className="lg:w-1/2 w-full lg:px-16 px-8 flex flex-col  justify-center  ">
+      <motion.div   
+                initial ={{opacity : 0 , x : 30 }}
+                whileInView={{opacity : 1 , x : 0}}
+                transition={{duration : 0.6 }}
+                viewport={{once : true , amount : 0.4 }}
+         className="lg:w-1/2 w-full lg:px-16 px-8 flex flex-col  justify-center  ">
         <span>
           <svg viewBox="0 0 57 54"   className="w-14 h-14">
             <g fill="none" fill-rule="evenodd">
@@ -78,7 +89,7 @@ const Protector = () => {
         </span>
         <p  className="lg:text-5xl text-4xl py-6 ">Data protection</p>
         <p  className="text-gray-700  py-3   "  >Rise is built upon enterprise-grade services to guard against    external threats to data. The application is hosted on  Amazon Web Services (AWS), the industry-leading provider that sets the bar for security best practices. Our in-house  security engineering team uses best-in-class tools to scan   vulnerability, detect malicious activity, and block suspicious   behavior automatically.</p>
-      </div>
+      </motion.div>
 
     </div>
   );

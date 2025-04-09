@@ -1,10 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Encryption = () => {
   return (
     <div className="lg:px-32 lg:py-24 px-6 py-4">
       <div className="flex justify-center items-center flex-wrap lg:flex-nowrap">
-        <div className="lg:w-1/2  w-full flex flex-col justify-center items-start ">
+        <motion.div 
+              initial ={{opacity : 0 , x : -30 }}
+              whileInView={{opacity : 1 , x : 0}}
+              transition={{duration : 0.6 }}
+              viewport={{once : true , amount : 0.4 }}
+        className="lg:w-1/2  w-full flex flex-col justify-center items-start ">
           <span>
             <svg viewBox="0 0 72 57" className="w-14 h-14 ">
               <g fill="none" fill-rule="evenodd">
@@ -39,9 +45,14 @@ const Encryption = () => {
             out of AWS. In addition, the cryptographic  key management
             process in Rise includes key rotation.
           </p>
-        </div>
+        </motion.div>
 
-        <div className="lg:w-1/2 w-full relative  ">
+        <motion.div   
+              initial ={{opacity : 0 , x : 30 }}
+              whileInView={{opacity : 1 , x : 0}}
+              transition={{duration : 0.6 }}
+              viewport={{once : true , amount : 0.4 }}
+         className="lg:w-1/2 w-full relative  ">
           <img
             src="https://riseusercontent.com/assets/rise/assets/marketing-images/circles/circle_2.png"
             alt=""
@@ -52,7 +63,7 @@ const Encryption = () => {
             alt=""
             className="absolute top-14 -left-36"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

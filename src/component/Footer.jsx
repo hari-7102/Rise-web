@@ -40,7 +40,7 @@ const Footer = () => {
       {name : 'Contact Us' , link:'/contact'},
       {name : 'Intergration' , link :'/intergration' },
       {name : 'Security' , link :'/security' },
-      {name : 'Support' },
+      {name : 'Support' , link:'/support'},
       {name : 'New Features' , link:'/feature' }
     ]
 

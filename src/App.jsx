@@ -9,6 +9,7 @@ import ScrollToTop from './component/utils/ScrollToTop'
 import Intergration from './pages/Intergration'
 import Security from './pages/Security'
 import Feature from './pages/Feature'
+import Support from './pages/Support'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/contact' element={<ContactUs/>}/>
           <Route path='/intergration' element={<Intergration/>}/>
           <Route path='/security' element={<Security/>}/>
+          <Route path='/support' element={<Support/>}/>
           <Route path='/feature' element={<Feature/>}/>
         </Routes>
       </Routers>

@@ -1,17 +1,26 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Secure = () => {
   return (
     <div>
       <div className="flex flex-wrap lg:flex-nowrap">
-        <div className="lg:w-1/2 ">
+        <motion.div   
+              initial ={{opacity : 0 , x : -30 }}
+              whileInView={{opacity : 1 , x : 0}}
+              transition={{duration : 0.6 }}
+              viewport={{once : true , amount : 0.4 }}
+         className="lg:w-1/2 ">
           <img
             src="https://riseusercontent.com/assets/rise/assets/marketing-images/security/security-path-with-tail.svg"
             alt=""
           />
-        </div>
+        </motion.div>
 
-        <div className="lg:w-1/2 px-6 lg:px-28 py-16">
+        <motion.div    
+                      initial ={{opacity : 0 , x : 30 }}
+                      whileInView={{opacity : 1 , x : 0}}
+                      transition={{duration : 0.6 }}
+                      viewport={{once : true , amount : 0.4 }} className="lg:w-1/2 px-6 lg:px-28 py-16">
           <span>
             <svg viewBox="0 0 61 53" className="w-14 h-14">
               <g fill="none" fill-rule="evenodd">
@@ -56,7 +65,7 @@ const Secure = () => {
             sign-on (SSO) powered by SAML 2.0, built on Okta.
           </p>
           <button  className="bg-orange-600 text-white px-5 py-2 rounded-3xl mt-14 font-semibold">Download White Paper</button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

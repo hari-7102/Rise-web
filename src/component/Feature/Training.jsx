@@ -42,7 +42,7 @@ const Training = () => {
         <p className="text-gray-800 lg:text-5xl  text-4xl font-semibold py-4">Customize your training <br /> style with Rise themes</p>
         <p  className="text-gray-700  py-5">Customize the look and feel of your content with gorgeous course themes  <br /> in various styles—all created by award-winning designers.</p>
 
-        <div className="flex  items-center gap-4 py-2">
+        <div className="flex  items-center gap-4 py-2  flex-wrap lg:flex-nowrap ">
             <button className=" text-white bg-orange-600 px-5 py-2 rounded-4xl">Contact Us</button>
             <p className=" underline underline-offset-8 hover:text-orange-600">Check Out Release Notes</p>
         </div>

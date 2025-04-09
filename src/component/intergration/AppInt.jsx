@@ -65,7 +65,7 @@ const AppInt = () => {
           </svg>
         </span>
         <p className="lg:text-6xl text-4xl   font-semibold">App Integrations</p>
-        <p className="text-base py-6">
+        <p className="text-base py-6 px-4">
           Effortlessly integrate Rise with your favorite apps
         </p>
       </div>
@@ -78,9 +78,9 @@ const AppInt = () => {
                 alt=""
                 className="w-80 rounded-2xl  "
             />
-            <div  className="py-7 px-14" >
+            <div  className="py-7 lg:px-14   px-4  " >
                 <p className="text-xl font-semibold text-start ">{item.title}</p>
-                <p className="py-3">{item.dec}</p>
+                <p className="py-3 ">{item.dec}</p>
                 <p  className="underline underline-offset-8  text-orange-600  ">{item.last}</p>
                 </div>
             </div>

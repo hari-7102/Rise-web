@@ -95,7 +95,7 @@ const Card = () => {
         </div> */}
 
 
-        <div className="grid md:grid-cols-2 grid-cols-1   grid-rows-4  sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8 py-14 gap-2 p-4 md:w-[34rem] w-72   mx-auto ">
+        <div className="grid md:grid-cols-2 grid-cols-1   grid-rows-4  sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8 py-14 gap-2 p-4 md:w-[34rem] w-full   mx-auto ">
             {features.map((item , index) =>(
             <motion.div 
 

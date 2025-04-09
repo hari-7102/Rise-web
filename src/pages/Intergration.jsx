@@ -6,6 +6,7 @@ import Hero from '../component/intergration/Hero'
 import Background from '../component/intergration/Background'
 import Content from '../component/intergration/content'
 import AppInt from '../component/intergration/AppInt'
+import Column from '../component/intergration/Column'
 const Intergration = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Intergration = () => {
         <Hero/>
         <Background/>
         <Content/>
+        <Column/>
         <AppInt/>
         <MinFooter/>
         <Footer/>

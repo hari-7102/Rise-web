@@ -4,7 +4,7 @@ import { IoMdJet } from "react-icons/io";
 
 import { LuNotepadText } from "react-icons/lu";
 
-import { BsEmojiExpressionlessFill } from "react-icons/bs";
+import { RiEmotionFill } from "react-icons/ri";
 
 
 const WhyArchive = () => {
@@ -22,7 +22,7 @@ const WhyArchive = () => {
       des: "with Our AI base Engine schedulling",
     },
     {
-      icons:<BsEmojiExpressionlessFill/>,
+      icons:<RiEmotionFill/>,
       title: "Reduce Procrastination",
       extra: "by 30%",
       des: "through AI Powered tasks Segmentation",
@@ -58,13 +58,13 @@ const WhyArchive = () => {
         <div className="grid lg:grid-cols-3   grid-cols-1  w-full    grid-rows-1 gap-2 sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8   ">
           {cardDetails.map((item) => (
             <div className=" lg:px-8 py-5  hover:bg-orange-600 group   px-4    bg-gray-50 rounded-2xl w-full lg:w-[21rem]">
-              <span className="rounded-2xl  text-2xl bg-blue-400">{item.icons}</span>
+              <span className="rounded-2xl group-hover:text-white text-2xl bg-blue-400">{item.icons}</span>
               <div className="text-2xl text-indigo-950 font-semibold  py-4  group-hover:text-white  ">
                 <p>{item.title}</p>
                 <p>{item.extra}</p>
               </div>
               <p className="text-sm text-gray-600 py-2.5 group-hover:text-gray-300   ">{item.des}</p>
-              <button className="text-white group-hover:bg-gray-100 group-hover:text-orange-600   bg-orange-600 px-5 py-2 rounded-4xl">
+              <button className="text-white group-hover:bg-gray-100 group-hover:text-orange-600  group-hover:font-semibold bg-orange-600 px-5 py-2 rounded-4xl">
                 Learn More
               </button>
             </div>

@@ -39,7 +39,7 @@ const Navbar = () => {
             <ul className='hidden md:flex justify-center items-center gap-12 '>
               {link.map((nav , index )  =>(
                   <div className='flex justify-center items-center gap-1 '>
-                    <Link to={nav.link}><span size={36} className='text-orange-600 text-2xl'>{nav.icon}</span></Link>
+                    <Link to={nav.link}><span size={36} className='text-orange-600 text-3xl'>{nav.icon}</span></Link>
                     <p  className={`${location.pathname === nav.link ? 'text-orange-600' : ''}`}><li className={` ${font[index]}`}><Link to={nav.link}>{nav.name}</Link></li></p>
                   </div>
 
@@ -70,7 +70,7 @@ const Navbar = () => {
               viewport={{ once: true, amount: 0.2 }}
 
               className='flex justify-center items-center gap-1 '>
-                <Link to={nav.link}><span size={36} className='text-orange-600  text-2xl '>{nav.icon}</span></Link>
+                <Link to={nav.link}><span size={36} className='text-orange-600  text-3xl '>{nav.icon}</span></Link>
                 <p  className={`${location.pathname === nav.link ? 'text-orange-600' : ''}`} onClick={() => SetisOpen(false)}   ><li className={` ${font[index]}`} ><Link to={nav.link}>{nav.name}</Link></li></p>
               </motion.div>
 
