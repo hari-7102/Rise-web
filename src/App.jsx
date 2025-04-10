@@ -13,8 +13,8 @@ import Support from './pages/Support'
 
 const App = () => {
   return (
-    <div>
-      <Routers>
+    <Routers>
+        <div className='dark'>
         <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -27,8 +27,8 @@ const App = () => {
           <Route path='/support' element={<Support/>}/>
           <Route path='/feature' element={<Feature/>}/>
         </Routes>
-      </Routers>
     </div>
+      </Routers>
   )
 }
 
