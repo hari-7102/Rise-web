@@ -9,7 +9,7 @@ const List = () => {
       <motion.div 
        initial= {{x : -70 , opacity : 0 }}
        whileInView={{x : 0 , opacity : 1}}
-       transition={{duration : 2 , }}
+       transition={{duration : 0.6 , }}
        viewport={{once : true , amount : 0.4 }}
 
       className="lg:w-1/3 w-full py-8">
@@ -75,7 +75,7 @@ const List = () => {
       <motion.div 
       initial = {{x :70 , opacity : 0}}
       whileInView={{x : 0 , opacity : 1}}
-      transition={{ duration : 2 }}
+      transition={{ duration : 0.6 }}
       viewport={{once : true , amount: 0.4}}
       className="lg:w-2/3 w-full rounded-2xl overflow-hidden">
         <video

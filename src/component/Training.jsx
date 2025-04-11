@@ -9,7 +9,7 @@ const Training = () => {
         <motion.div 
               initial = {{x : -100 , opacity : 0}}
               whileInView = {{ x : 0 , opacity : 1}}
-              transition={{duration : 2 }}
+              transition={{duration : 0.6 }}
               viewport={{once : true , amount : 0.5}}
         
         className="lg:w-1/3 w-full">
@@ -69,7 +69,7 @@ const Training = () => {
         <motion.div  
                       initial = {{x : 100 , opacity : 0}}
                       whileInView = {{ x : 0 , opacity : 1}}
-                      transition={{duration : 2 }}
+                      transition={{duration : 0.6 }}
                       viewport={{once : true , amount : 0.5}}
         className="lg:w-2/3 w-full py-4 overflow-hidden rounded-2xl   ">
           <video

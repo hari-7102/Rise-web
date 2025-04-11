@@ -3,7 +3,8 @@ import React from 'react'
 const Content = () => {
   return (
     <div  className='flex px-8   py-6'>
-        <div className='lg:w-1/2 hidden md:flex  relative'  >
+        
+        <div className='lg:w-1/2 hidden md:flex  sticky   top-5              '>
             <img src="https://riseusercontent.com/assets/rise/assets/marketing-images/circles/circle_4.png" 
             alt="" 
             className='w-[88rem] hidden lg:flex absolute -left-[36rem]   top-36'

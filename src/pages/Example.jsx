@@ -5,11 +5,13 @@ import Gird from '../component/Example/Gird'
 import MinFooter from '../component/MinFooter'
 import Footer from '../component/Footer'
 import Demo from '../component/HowItWork/Demo'
+import Scrolling from '../component/Example/Scrolling'
 
 const Example = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         <Navbar/>
+        <Scrolling/>
         <Video/>
         <Gird/>
         <Demo/>

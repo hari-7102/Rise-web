@@ -10,7 +10,7 @@ const Video = () => {
         <motion.div 
                       initial = {{x : -100 , opacity : 0}}
                       whileInView = {{ x : 0 , opacity : 1}}
-                      transition={{duration : 2 }}
+                      transition={{duration : 0.6 }}
                       viewport={{once : true , amount : 0.5}}
 
         className="lg:w-2/3 w-full object-cover ">
@@ -30,7 +30,7 @@ const Video = () => {
         <motion.div 
                            initial = {{x : 100 , opacity : 0}}
                            whileInView = {{ x : 0 , opacity : 1}}
-                           transition={{duration : 2 }}
+                           transition={{duration : 0.6 }}
                            viewport={{once : true , amount : 0.5}}
         className="lg:w-1/3 text-left   w-full    ">
           <svg viewBox="0 0 58 56" className="lg:w-14 lg:h-14 w-11 h-11  py-1">

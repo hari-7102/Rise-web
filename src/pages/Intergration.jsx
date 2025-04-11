@@ -7,6 +7,8 @@ import Background from '../component/intergration/Background'
 import Content from '../component/intergration/content'
 import AppInt from '../component/intergration/AppInt'
 import Column from '../component/intergration/Column'
+import Domain from '../component/intergration/Domain'
+
 const Intergration = () => {
   return (
     <div>
@@ -15,6 +17,7 @@ const Intergration = () => {
         <Background/>
         <Content/>
         <Column/>
+        <Domain/>
         <AppInt/>
         <MinFooter/>
         <Footer/>

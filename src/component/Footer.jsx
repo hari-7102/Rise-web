@@ -93,7 +93,7 @@ const Footer = () => {
                  key={index}
                  initial={{ opacity: 0, y: 30 }}
                  whileInView={{ opacity: 1, y: 0 }}
-                 transition={{ duration: 0.5, delay: index * 0.3 }}
+                 transition={{ duration: 0.4, delay: index * 0.3 }}
                  viewport={{ once: true, amount: 0.2 }}
 
                  size={38} className="bg-gray-100 hover:text-orange-600 p-2 rounded-full hover:rotate-6 duration-300 transform-fill " > {item.icon}  </motion.span>
@@ -112,7 +112,7 @@ const Footer = () => {
                     key={index}
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.3 }}
+                    transition={{ duration: 0.3, delay: index * 0.2 }}
                     viewport={{ once: true, amount: 0.2 }}
 
                     className="hover:text-orange-600 hover:scale-105 duration-200 cursor-pointer"  >
@@ -136,7 +136,7 @@ const Footer = () => {
                          key={index}
                          initial={{ opacity: 0, y: 30 }}
                          whileInView={{ opacity: 1, y: 0 }}
-                         transition={{ duration: 0.5, delay: index * 0.3 }}
+                         transition={{ duration: 0.3, delay: index * 0.2 }}
                          viewport={{ once: true, amount: 0.2 }}
 
                          className="hover:text-orange-600 hover:scale-105 duration-200 cursor-pointer"> 
@@ -175,7 +175,7 @@ const Footer = () => {
                 key={index}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.3 }}
+                transition={{ duration: 0.3, delay: index * 0.2 }}
                 viewport={{ once: true, amount: 0.2 }}
 
                 className="hover:text-orange-600 hover:scale-105 duration-200 cursor-pointer">

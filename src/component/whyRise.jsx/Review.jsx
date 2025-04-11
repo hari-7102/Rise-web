@@ -36,7 +36,7 @@ const Review = () => {
             initial={{  opacity: 0 , scale : 0.9}}
             transition={{ duration: 0.5 }}
             whileInView={{ opacity: 1, scale : 1}}
-            viewport={{ once: true, amount: 0.2 }}
+            viewport={{ once: true, amount: 0.3 }}
       className="flex justify-center items-center gap-3 lg:py-24  py-8  flex-wrap lg:flex-nowrap   ">
         {review.map((item) => (
           <div className="flex flex-col justify-start items-start gap-8 bg-gray-100  lg:px-8 lg:py-6  px-3 py-4   rounded-2xl w-80 h-80 shadow-[0px_4px_55px_0px_rgba(249,_115,_22,_0.5)]">
