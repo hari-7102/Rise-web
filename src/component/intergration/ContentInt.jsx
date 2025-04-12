@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Content = () => {
+const ContentInt = () => {
   return (
     <div  className='flex px-8   py-6'>
         
@@ -57,4 +57,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default ContentInt

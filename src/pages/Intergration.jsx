@@ -4,10 +4,11 @@ import MinFooter from '../component/MinFooter'
 import Footer from '../component/Footer'
 import Hero from '../component/intergration/Hero'
 import Background from '../component/intergration/Background'
-import Content from '../component/intergration/content'
+
 import AppInt from '../component/intergration/AppInt'
 import Column from '../component/intergration/Column'
 import Domain from '../component/intergration/Domain'
+import ContentInt from '../component/intergration/ContentInt'
 
 const Intergration = () => {
   return (
@@ -15,7 +16,7 @@ const Intergration = () => {
         <Navbar/>
         <Hero/>
         <Background/>
-        <Content/>
+        <ContentInt/>
         <Column/>
         <Domain/>
         <AppInt/>
