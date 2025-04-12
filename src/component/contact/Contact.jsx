@@ -33,7 +33,7 @@ const Contact = () => {
     transition={{ duration: 0.5 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.2 }}
-    className="lg:px-40 lg:py-16 px-8 py-2 ">
+    className="lg:px-40 lg:py-16 px-6 py-2 ">
       <div className="">
         <p className="text-orange-600 font-audiowide text-6xl py-5">
           Let's Get In Touch
@@ -77,7 +77,7 @@ const Contact = () => {
         </p>
         <div className="grid lg:grid-cols-2   grid-cols-1    grid-rows-3 gap-1 sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8 justify-center ">
           {contact.map((con) => (
-            <div className="flex flex-col lg:px-36  px-2  md:px-24   justify-center  w-full   items-start">
+            <div className="flex flex-col lg:px-36  md:px-24   justify-center  w-full   items-start">
               <div className="flex items-center gap-2">
                 <p className=" text-orange-700">{con.title}</p>
                 <MdOutlineStarPurple500 size={6} className="text-red-700" />
@@ -87,7 +87,7 @@ const Contact = () => {
                 placeholder={con.placeholder}
                 name=""
                 id=""
-                className="px-4 rounded-sm py-2 pe-32 bg-gray-100"
+                className="px-4 rounded-sm py-2 md:pe-32   pe-20 bg-gray-100"
               />
             </div>
           ))}

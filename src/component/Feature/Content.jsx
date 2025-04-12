@@ -39,7 +39,7 @@ const Content = () => {
       viewport={{once: true , amount : 0.2 }}
        className="flex flex-col justify-center items-start gap-4">
         <span></span>
-        <p className="text-5xl font-nunito ">Content Release Overview</p>
+        <p className="lg:text-5xl  text-3xl  font-nunito ">Content Release Overview</p>
         <p className="text-base py-3">
           Check out this overview video for a quick look at all the new features
           from this release.
@@ -133,7 +133,7 @@ const Content = () => {
           bestselling authors.
         </p>
 
-        <div className="py-7 flex items-center gap-6">
+        <div className="py-7 flex items-center gap-6   flex-wrap lg:flex-nowrap">
           <button className="text-white bg-orange-600 px-5 py-2 rounded-4xl ">
             Contact Us
           </button>

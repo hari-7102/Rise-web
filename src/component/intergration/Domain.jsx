@@ -16,7 +16,7 @@ const Domain = () => {
   ];
   return (
     <div className="py-20  flex ">
-      <div className="w-1/3 sticky top-24 h-fit flex flex-col justify-start gap-14 px-36">
+      <div className="w-1/3 sticky top-24 h-fit md:flex  hidden flex-col justify-start gap-14 px-36     ">
         {navbar.map((item, index) => (
           <div key={index} className="flex gap-2 items-center">
             <>
@@ -31,11 +31,11 @@ const Domain = () => {
 
       <div className="w-px h-[33rem] bg-gray-300 sticky top-20"></div>
 
-      <div className="w-2/3 px-12">
+      <div className="md:w-2/3  w-full  px-6  md:px-12">
         <div className="mb-32">
           <div className="flex justify-start  items-start gap-8">
             <span>
-              <svg viewBox="0 0 57 57" className="w-14 h-14">
+              <svg viewBox="0 0 57 57" className="md:w-14  md:h-14    w-8 h-8   ">
                 <g fill="none">
                   <path
                     fill="#F16622"
@@ -70,11 +70,11 @@ const Domain = () => {
                 </g>
               </svg>
             </span>
-            <p className="text-5xl text-gray-700  font-nunito ">
+            <p className="md:text-5xl text-4xl text-gray-700  font-nunito ">
               Create Your Domain
             </p>
           </div>
-          <p className="px-24 text-gray-500 py-9">
+          <p className="md:px-24 text-gray-500 py-9">
             Claim your .rise domain to get started. For example, if you work at
             Glivy, set up your Rise account as glivy.rise.com.
           </p>
@@ -87,7 +87,7 @@ const Domain = () => {
         <div className="mb-32">
           <div className="flex justify-start items-center  gap-8">
             <span>
-              <svg viewBox="0 0 60 53" className="w-14 h-14 ">
+              <svg viewBox="0 0 60 53" className="md:w-14 md:h-14 w-8  h-8">
                 <g fill="none">
                   <g transform="translate(4 5)">
                     <path
@@ -112,12 +112,12 @@ const Domain = () => {
                 </g>
               </svg>
             </span>
-            <p className="text-5xl text-gray-700 font-nunito">
+            <p className="md:text-5xl  text-4xl  text-gray-700 font-nunito">
               Invite people to Rise
             </p>
           </div>
 
-          <p className="px-24 text-gray-500 py-9">
+          <p className="md:px-24 text-gray-500 py-9">
             Add admins, content creators, reporters, and learners, then set
             their permissions. You can do this step at any time.
           </p>
@@ -130,7 +130,7 @@ const Domain = () => {
         <div className="mb-32">
           <div className="flex justify-start items-center  gap-8">
             <span>
-              <svg viewBox="0 0 71 48" className="w-14 h-14 ">
+              <svg viewBox="0 0 71 48" className="md:w-14 md:h-14   w-8 h-8 ">
                 <g fill="none">
                   <path
                     fill="#BFBFBF"
@@ -144,12 +144,12 @@ const Domain = () => {
                 </g>
               </svg>
             </span>
-            <p className="text-5xl text-gray-700 font-nunito">
+            <p className="md:text-5xl  text-4xl   text-gray-700 font-nunito">
               Build from scratch
             </p>
           </div>
 
-          <p className="px-24 text-gray-500 py-9">
+          <p className="md:px-24 text-gray-500 py-9">
             Create unique lessons by stacking modular media, text, and
             interactive blocks in any order you want. Then customize them with
             your own content.
@@ -170,7 +170,7 @@ const Domain = () => {
         <div className="mb-32">
           <div className="flex justify-start items-center  gap-8">
             <span>
-              <svg fill="none" viewBox="0 0 76 54" className="w-14 h-14 ">
+              <svg fill="none" viewBox="0 0 76 54" className="md:w-14 md:h-14  w-11 h-11 ">
                 <path
                   fill="#FF6602"
                   d="M24.443 37.479h-8.63v7.15h8.63v-7.15z"
@@ -222,12 +222,12 @@ const Domain = () => {
                 ></path>
               </svg>
             </span>
-            <p className="text-5xl text-gray-700 font-nunito">
+            <p className="lg:text-5xl   text-4xl  text-gray-700 font-nunito">
               Opt in to the Rise course catalog
             </p>
           </div>
 
-          <p className="px-24 text-gray-500 py-9">
+          <p className="md:px-24 text-gray-500 py-9">
             Claim your .rise domain to get started. For example, if you work at
             Glivy, set up your Rise account as glivy.rise.com.
           </p>
@@ -239,13 +239,13 @@ const Domain = () => {
         </div>
         <div className="mb-32">
           <div className="flex justify-start items-center  gap-8">
-            <span><svg viewBox="0 0 67 63"  className="w-14 h-14 "><path fill="#C1C0C0" d="M64 21.5h-3.7c-.6 0-1.2.5-1.2 1.2s.5 1.2 1.2 1.2h2.5v2c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2v-3.2c0-.7-.5-1.2-1.2-1.2zm0 20.3c-.6 0-1.2.5-1.2 1.2v5.7c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2V43c0-.7-.5-1.2-1.2-1.2zm0-11.5c-.6 0-1.2.5-1.2 1.2v5.7c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2v-5.7c0-.6-.5-1.2-1.2-1.2zm0 22.9c-.6 0-1.2.5-1.2 1.2v2h-2c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2H64c.6 0 1.2-.5 1.2-1.2v-3.2c0-.7-.5-1.2-1.2-1.2zm-31 3.1h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2H33c.7 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm22.3 0h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2h5.6c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm-11.1 0h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2h5.6c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm-22.3 0h-2v-2c0-.6-.5-1.2-1.2-1.2-.6 0-1.2.5-1.2 1.2v3.2c0 .6.5 1.2 1.2 1.2h3.2c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2z"></path><path fill="C1C0C0" d="M18.7 50.5c.6 0 1.2-.5 1.2-1.2v-3.2c0-.6-.5-1.2-1.2-1.2-.6 0-1.2.5-1.2 1.2v3.2c.1.7.6 1.2 1.2 1.2z"></path><g fill="#333"><path d="M56.1 7.5H31.5l-7.1-5.7c-.2-.2-.4-.3-.7-.3H8c-.7 0-1.2.5-1.2 1.2v4.9H2.7c-.7-.1-1.2.5-1.2 1.1v37c0 .6.5 1.2 1.2 1.2h53.4c.6 0 1.2-.5 1.2-1.2v-37c0-.6-.6-1.2-1.2-1.2zm-1.3 37h-51V9.9H8c.6 0 1.2-.5 1.2-1.2V3.8h14.1l7.1 5.7c.2.2.4.3.7.3h23.7v34.7z"></path><path d="M20.4 27.8c-.2-.1-.4-.2-.6-.2-.2 0-.4 0-.6.2-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2.2 0 .4 0 .6-.2.2-.2.3-.4.3-.6 0-.2-.1-.5-.3-.6zm1.3-4.4v1h3l-3.1 4.7h5v-.9h-3.1l3.1-4.8zm6.2 0H29v5.7h-1.1zm.5-3.1c-.2 0-.4.1-.6.3-.1.2-.2.4-.2.6 0 .3.1.5.2.6.2.1.4.2.6.2.2 0 .4 0 .6-.2.2-.2.3-.4.3-.6 0-.2-.1-.4-.3-.6-.2-.2-.4-.3-.6-.3zm3.6 2.9h-1.1v8.9H32V28c.2.3.5.6.8.8.3.2.7.3 1.2.3.4 0 .8 0 1.2-.2.4-.1.7-.3 1-.6.3-.3.5-.5.6-1 .1-.4.2-.7.2-1.2 0-.4-.1-.8-.2-1.2-.2-.3-.4-.6-.6-1-.3-.2-.6-.4-1-.6-.3-.1-.7-.2-1.2-.2-.4 0-.8.1-1.2.3-.4.2-.6.5-.8.8v-1zm.1 2.3c.1-.2.2-.4.4-.6.2-.2.4-.3.6-.4.3-.1.5-.2.8-.2.3 0 .5 0 .7.2.3.1.4.2.6.4.2.2.3.4.4.6.1.2.1.4.1.7 0 .2 0 .5-.1.7-.1.2-.2.4-.4.6-.2.2-.4.3-.6.4-.2.1-.4.2-.7.2-.3 0-.6-.1-.8-.2-.2-.1-.4-.2-.6-.4-.2-.2-.3-.4-.4-.6-.1-.1-.1-.3-.1-.6 0-.2 0-.5.1-.8z"></path></g><circle cx="43.5" cy="43.8" r="7.4" fill="#F26722"></circle><path fill="#FFF" d="M42.491 46.601l4.172-4.171 1.414 1.414-4.172 4.172z"></path><path fill="#FFF" d="M42.484 40.985l1.415-1.414 4.171 4.172-1.414 1.414z"></path><path fill="#FFF" d="M39.8 42.8h5.9v2h-5.9z"></path></svg></span>
-            <p className="text-5xl text-gray-700 font-nunito">
+            <span><svg viewBox="0 0 67 63"  className="md:w-14 md:h-14 w-8 h-8"><path fill="#C1C0C0" d="M64 21.5h-3.7c-.6 0-1.2.5-1.2 1.2s.5 1.2 1.2 1.2h2.5v2c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2v-3.2c0-.7-.5-1.2-1.2-1.2zm0 20.3c-.6 0-1.2.5-1.2 1.2v5.7c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2V43c0-.7-.5-1.2-1.2-1.2zm0-11.5c-.6 0-1.2.5-1.2 1.2v5.7c0 .6.5 1.2 1.2 1.2.6 0 1.2-.5 1.2-1.2v-5.7c0-.6-.5-1.2-1.2-1.2zm0 22.9c-.6 0-1.2.5-1.2 1.2v2h-2c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2H64c.6 0 1.2-.5 1.2-1.2v-3.2c0-.7-.5-1.2-1.2-1.2zm-31 3.1h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2H33c.7 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm22.3 0h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2h5.6c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm-11.1 0h-5.6c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2h5.6c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2zm-22.3 0h-2v-2c0-.6-.5-1.2-1.2-1.2-.6 0-1.2.5-1.2 1.2v3.2c0 .6.5 1.2 1.2 1.2h3.2c.6 0 1.2-.5 1.2-1.2-.1-.6-.6-1.2-1.2-1.2z"></path><path fill="C1C0C0" d="M18.7 50.5c.6 0 1.2-.5 1.2-1.2v-3.2c0-.6-.5-1.2-1.2-1.2-.6 0-1.2.5-1.2 1.2v3.2c.1.7.6 1.2 1.2 1.2z"></path><g fill="#333"><path d="M56.1 7.5H31.5l-7.1-5.7c-.2-.2-.4-.3-.7-.3H8c-.7 0-1.2.5-1.2 1.2v4.9H2.7c-.7-.1-1.2.5-1.2 1.1v37c0 .6.5 1.2 1.2 1.2h53.4c.6 0 1.2-.5 1.2-1.2v-37c0-.6-.6-1.2-1.2-1.2zm-1.3 37h-51V9.9H8c.6 0 1.2-.5 1.2-1.2V3.8h14.1l7.1 5.7c.2.2.4.3.7.3h23.7v34.7z"></path><path d="M20.4 27.8c-.2-.1-.4-.2-.6-.2-.2 0-.4 0-.6.2-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2.2 0 .4 0 .6-.2.2-.2.3-.4.3-.6 0-.2-.1-.5-.3-.6zm1.3-4.4v1h3l-3.1 4.7h5v-.9h-3.1l3.1-4.8zm6.2 0H29v5.7h-1.1zm.5-3.1c-.2 0-.4.1-.6.3-.1.2-.2.4-.2.6 0 .3.1.5.2.6.2.1.4.2.6.2.2 0 .4 0 .6-.2.2-.2.3-.4.3-.6 0-.2-.1-.4-.3-.6-.2-.2-.4-.3-.6-.3zm3.6 2.9h-1.1v8.9H32V28c.2.3.5.6.8.8.3.2.7.3 1.2.3.4 0 .8 0 1.2-.2.4-.1.7-.3 1-.6.3-.3.5-.5.6-1 .1-.4.2-.7.2-1.2 0-.4-.1-.8-.2-1.2-.2-.3-.4-.6-.6-1-.3-.2-.6-.4-1-.6-.3-.1-.7-.2-1.2-.2-.4 0-.8.1-1.2.3-.4.2-.6.5-.8.8v-1zm.1 2.3c.1-.2.2-.4.4-.6.2-.2.4-.3.6-.4.3-.1.5-.2.8-.2.3 0 .5 0 .7.2.3.1.4.2.6.4.2.2.3.4.4.6.1.2.1.4.1.7 0 .2 0 .5-.1.7-.1.2-.2.4-.4.6-.2.2-.4.3-.6.4-.2.1-.4.2-.7.2-.3 0-.6-.1-.8-.2-.2-.1-.4-.2-.6-.4-.2-.2-.3-.4-.4-.6-.1-.1-.1-.3-.1-.6 0-.2 0-.5.1-.8z"></path></g><circle cx="43.5" cy="43.8" r="7.4" fill="#F26722"></circle><path fill="#FFF" d="M42.491 46.601l4.172-4.171 1.414 1.414-4.172 4.172z"></path><path fill="#FFF" d="M42.484 40.985l1.415-1.414 4.171 4.172-1.414 1.414z"></path><path fill="#FFF" d="M39.8 42.8h5.9v2h-5.9z"></path></svg></span>
+            <p className="md:text-5xl text-4xl  text-gray-700 font-nunito">
               Use prebuilt content
             </p>
           </div>
 
-          <p className="px-24 text-gray-500 py-9">
+          <p className="md:px-24 text-gray-500 py-9">
             Start from a template, tweak our sample courses, or choose from
             hundreds of ready-to-go, customizable lessons on practical business
             topics.

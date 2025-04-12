@@ -27,18 +27,18 @@ const Scrolling = () => {
   ];
 
   return (
-    <div className="py-28">
+    <div className="lg:py-28    py-12 ">
       <div className="relative">
         <img src="https://riseusercontent.com/assets/rise/assets/marketing-images/illos/clouds/cloud_1.svg" 
                 alt="" 
-                className='w-[12rem] absolute top-1 left-28'/>
+                className='w-[12rem]   md:flex hidden  absolute top-1 left-28'/>
         <img src="https://riseusercontent.com/assets/rise/assets/marketing-images/illos/clouds/cloud_1.svg" 
                 alt="" 
-                className='w-[12rem] absolute top-1 -right-28'/>
+                className='w-[12rem] md:flex hidden  absolute top-1 -right-28'/>
       </div>
 
-      <div className="py-24">
-        <p className="text-6xl py-2.5 text-center font-audiowide   ">Risk Works For People in </p>
+      <div className="lg:py-24   py-12">
+        <p className="lg:text-6xl text-4xl py-2.5 text-center font-audiowide   ">Risk Works For People in </p>
         <div className="h-20 overflow-hidden flex justify-center items-center">
           <AnimatePresence mode="wait">
             <motion.p
