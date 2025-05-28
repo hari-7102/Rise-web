@@ -193,7 +193,7 @@ const Footer = () => {
       <div>
         <p className="border border-gray-50 my-6 w-full "></p>
         <p className="text-gray-600 text-sm cursor-pointer ">
-          © 2025 Articulate Global, LLC | Terms| Privacy | Cookie Preferences
+          © 2025 Hariharan S | All rights reserved.
         </p>
       </div>
     </div>
